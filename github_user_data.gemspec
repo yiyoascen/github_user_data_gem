@@ -7,4 +7,5 @@ Gem::Specification.new do |s|
   s.authors = ['Rodrigo Ascencio']
   s.email = 'yiyoascen@gmail.com'
   s.files = ['lib/github_user_data.rb']
+  s.homepage = 'https://github.com/yiyoascen/github_user_data_gem' 
 end
