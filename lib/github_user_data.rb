@@ -1,6 +1,6 @@
 # get the distilled data from a username of Github.
 require 'octokit'
-class Github_user_data
+class GithubUserData
   def self.get_data(username)
     client = Octokit::Client.new
     user = client.user username
